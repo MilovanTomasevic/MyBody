@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="16G1036" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Ishrana" representedClassName="Ishrana" syncable="YES">
+        <attribute name="cDorucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cRucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cUzina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cUzina2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cVecera" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datumUnosa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="izabranaIshrana" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nDorucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nRucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nUzina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nUzina2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nVecera" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pDorucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="petDorucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="petRucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="petUzina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="petUzina2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="petVecera" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pRucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pUzina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pUzina2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pVecera" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sDorucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sRucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subDorucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subRucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subUzina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subUzina2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subVecera" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sUzina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sUzina2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sVecera" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uDorucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uRucak" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uUzina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uUzina2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uVecera" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vremeDorucka" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vremeRucka" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vremeUzine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vremeUzine2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vremeVecere" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="ishrane" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Mere" representedClassName="Mere" syncable="YES">
+        <attribute name="bmi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datumMerenja" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="godine" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="izabranaMera" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="kratkaNapomena" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="obimButina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="obimGrudi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="obimKuka" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pol" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tezina" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visina" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="merenja" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Trening" representedClassName="Trening" syncable="YES">
+        <attribute name="datumUnosa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="izabraniTrening" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="t1Fokus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t1Sadrzaj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t2Fokus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t2Sadrzaj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t3Fokus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t3Sadrzaj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t4Fokus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t4Sadrzaj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t5Fokus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t5Sadrzaj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t6Fokus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t6Sadrzaj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t7Fokus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="t7Sadrzaj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="treninzi" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="adresa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postanskiKod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prezime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sifra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sOdgovor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sPitanje" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefon" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="ishrane" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ishrana" inverseName="user" inverseEntity="Ishrana" syncable="YES"/>
+        <relationship name="merenja" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Mere" inverseName="user" inverseEntity="Mere" syncable="YES"/>
+        <relationship name="treninzi" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Trening" inverseName="user" inverseEntity="Trening" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Ishrana" positionX="187" positionY="-18" width="128" height="720"/>
+        <element name="Mere" positionX="-252" positionY="-3" width="128" height="255"/>
+        <element name="Trening" positionX="-81" positionY="144" width="128" height="330"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="240"/>
+    </elements>
+</model>
